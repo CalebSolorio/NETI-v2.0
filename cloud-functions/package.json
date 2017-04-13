@@ -1,0 +1,17 @@
+{
+  "name": "neti-v2.0-cloud-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "color.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "firebase-admin": "^4.2.0",
+    "underscore": "^1.8.3",
+    "uuid": "^3.0.1"
+  }
+}

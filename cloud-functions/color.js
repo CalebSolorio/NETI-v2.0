@@ -16,7 +16,7 @@ var ref = db.ref("color");
  * @param {Object} req Cloud Function request context.
  * @param {Object} res Cloud Function response context.
  */
-exports.color = function drug (req, res) {
+exports.color = function color (req, res) {
   if(req.method == 'POST' || req.method == 'PUT') {
     update(req, res);
   } else if(req.method = 'DELETE') {

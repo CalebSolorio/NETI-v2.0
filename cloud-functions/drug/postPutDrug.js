@@ -55,8 +55,9 @@ exports.handler = function (event, context) {
                   if(snapshot.val() === null) {
                     pNext({ status: 400,
                       message: "Field 'color_id' not valid." });
+                  } else {
+                    pNext(null);
                   }
-                  pNext(null);
                 });
               }, function(pNext) {
                 db.ref("consistency").child(appearance.consistency_id)
@@ -64,8 +65,9 @@ exports.handler = function (event, context) {
                   if(snapshot.val() === null) {
                     pNext({ status: 400,
                       message: "Field 'consistency_id' not valid." });
+                  } else {
+                    pNext(null);
                   }
-                  pNext(null);
                 });
               }, function(pNext) {
                 db.ref("container").child(appearance.container_id)
@@ -73,8 +75,9 @@ exports.handler = function (event, context) {
                   if(snapshot.val() === null) {
                     pNext({ status: 400,
                       message: "Field 'container_id' not valid." });
+                  } else {
+                    pNext(null);
                   }
-                  pNext(null);
                 });
               }
             ], function(err) {

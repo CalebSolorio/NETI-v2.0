@@ -275,7 +275,7 @@ Calling this resource will manipulate an existing drug type in the database.</br
 ```
 {
   "status": 400,
-  "message": "The name of the drug must be provided."
+  "message": "Field 'color_id' not valid."
 }
 ```
 ## DELETE

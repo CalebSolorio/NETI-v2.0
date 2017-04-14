@@ -223,7 +223,7 @@ Calling this resource will remove an existing container type from the database.<
 }
 ```
 
-# <a id="drug"></a>/container
+# <a id="drug"></a>/drug
 ## POST
 Calling this resource will create a new drug type in the database.</br>
 **Body Example:**

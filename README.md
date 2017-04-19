@@ -5,7 +5,7 @@
 #### API Endpoint: https://5lmeesr8wg.execute-api.us-east-1.amazonaws.com/EGR323
 #### Firebase Endpoint: https://neti-v2.firebaseio.com/
 #### Video Tutorial: https://drive.google.com/open?id=0B0SCJBL1Pu8eaUxXN2Q4OVMzelE
-
+#### Android Video: https://drive.google.com/open?id=0B3g-D_CzeqPgQVkzZE52RE56OWs
 ## API Resources
 - ##### [/color](#color) : Assists with adding/manipulating color types.
 - ##### [/consistency](#consistency) : Assists with adding/manipulating consistency types.

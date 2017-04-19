@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9109D6D53FCE5FEBB3EDC7D /* Pods_NETI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276B7061F9B2AB142BDADD6F /* Pods_NETI.framework */; };
+		D41616781E971165006BBE4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41616771E971165006BBE4A /* AppDelegate.swift */; };
+		D416167A1E971165006BBE4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41616791E971165006BBE4A /* ViewController.swift */; };
+		D416167D1E971165006BBE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D416167B1E971165006BBE4A /* Main.storyboard */; };
+		D416167F1E971165006BBE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D416167E1E971165006BBE4A /* Assets.xcassets */; };
+		D41616821E971165006BBE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41616801E971165006BBE4A /* LaunchScreen.storyboard */; };
+		D416168A1E971225006BBE4A /* TwentyQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41616891E971225006BBE4A /* TwentyQuestions.swift */; };
+		D44646A81EA6D07800598AC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D44646A71EA6D07800598AC0 /* GoogleService-Info.plist */; };
+		D45A7A9E1EA5B4AF00CC4507 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A7A9D1EA5B4AF00CC4507 /* AnswerCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		265CBBBB19222B6EFC3BF543 /* Pods-NETI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NETI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NETI/Pods-NETI.debug.xcconfig"; sourceTree = "<group>"; };
+		276B7061F9B2AB142BDADD6F /* Pods_NETI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NETI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E9B62A88AC549C7EDD2A17 /* Pods-NETI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NETI.release.xcconfig"; path = "Pods/Target Support Files/Pods-NETI/Pods-NETI.release.xcconfig"; sourceTree = "<group>"; };
+		D41616741E971165006BBE4A /* NETI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NETI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41616771E971165006BBE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D41616791E971165006BBE4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D416167C1E971165006BBE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D416167E1E971165006BBE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D41616811E971165006BBE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D41616831E971165006BBE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41616891E971225006BBE4A /* TwentyQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwentyQuestions.swift; sourceTree = "<group>"; };
+		D44646A71EA6D07800598AC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D45A7A9D1EA5B4AF00CC4507 /* AnswerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D41616711E971165006BBE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9109D6D53FCE5FEBB3EDC7D /* Pods_NETI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E60B5F0F771E3AA1918516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276B7061F9B2AB142BDADD6F /* Pods_NETI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3897A9802263922D0847A21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				265CBBBB19222B6EFC3BF543 /* Pods-NETI.debug.xcconfig */,
+				89E9B62A88AC549C7EDD2A17 /* Pods-NETI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D416166B1E971165006BBE4A = {
+			isa = PBXGroup;
+			children = (
+				D41616761E971165006BBE4A /* NETI */,
+				D41616751E971165006BBE4A /* Products */,
+				C3897A9802263922D0847A21 /* Pods */,
+				23E60B5F0F771E3AA1918516 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D41616751E971165006BBE4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41616741E971165006BBE4A /* NETI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41616761E971165006BBE4A /* NETI */ = {
+			isa = PBXGroup;
+			children = (
+				D44646A71EA6D07800598AC0 /* GoogleService-Info.plist */,
+				D41616771E971165006BBE4A /* AppDelegate.swift */,
+				D41616791E971165006BBE4A /* ViewController.swift */,
+				D416167B1E971165006BBE4A /* Main.storyboard */,
+				D416167E1E971165006BBE4A /* Assets.xcassets */,
+				D41616801E971165006BBE4A /* LaunchScreen.storyboard */,
+				D41616831E971165006BBE4A /* Info.plist */,
+				D41616891E971225006BBE4A /* TwentyQuestions.swift */,
+				D45A7A9D1EA5B4AF00CC4507 /* AnswerCell.swift */,
+			);
+			path = NETI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D41616731E971165006BBE4A /* NETI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41616861E971165006BBE4A /* Build configuration list for PBXNativeTarget "NETI" */;
+			buildPhases = (
+				6FFF405F335EFBE5D785FC8D /* [CP] Check Pods Manifest.lock */,
+				D41616701E971165006BBE4A /* Sources */,
+				D41616711E971165006BBE4A /* Frameworks */,
+				D41616721E971165006BBE4A /* Resources */,
+				FD3927BD5690567C225552B6 /* [CP] Embed Pods Frameworks */,
+				A8C24290EC5385228D44A1F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NETI;
+			productName = NETI;
+			productReference = D41616741E971165006BBE4A /* NETI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D416166C1E971165006BBE4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Blake Gordon";
+				TargetAttributes = {
+					D41616731E971165006BBE4A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = W28XDYH3BU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D416166F1E971165006BBE4A /* Build configuration list for PBXProject "NETI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D416166B1E971165006BBE4A;
+			productRefGroup = D41616751E971165006BBE4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D41616731E971165006BBE4A /* NETI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41616721E971165006BBE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41616821E971165006BBE4A /* LaunchScreen.storyboard in Resources */,
+				D44646A81EA6D07800598AC0 /* GoogleService-Info.plist in Resources */,
+				D416167F1E971165006BBE4A /* Assets.xcassets in Resources */,
+				D416167D1E971165006BBE4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FFF405F335EFBE5D785FC8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C24290EC5385228D44A1F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NETI/Pods-NETI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD3927BD5690567C225552B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NETI/Pods-NETI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D41616701E971165006BBE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D416168A1E971225006BBE4A /* TwentyQuestions.swift in Sources */,
+				D416167A1E971165006BBE4A /* ViewController.swift in Sources */,
+				D41616781E971165006BBE4A /* AppDelegate.swift in Sources */,
+				D45A7A9E1EA5B4AF00CC4507 /* AnswerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D416167B1E971165006BBE4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D416167C1E971165006BBE4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D41616801E971165006BBE4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41616811E971165006BBE4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D41616841E971165006BBE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D41616851E971165006BBE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D41616871E971165006BBE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265CBBBB19222B6EFC3BF543 /* Pods-NETI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W28XDYH3BU;
+				INFOPLIST_FILE = NETI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlakeGordon.NETI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D41616881E971165006BBE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E9B62A88AC549C7EDD2A17 /* Pods-NETI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W28XDYH3BU;
+				INFOPLIST_FILE = NETI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlakeGordon.NETI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D416166F1E971165006BBE4A /* Build configuration list for PBXProject "NETI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41616841E971165006BBE4A /* Debug */,
+				D41616851E971165006BBE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41616861E971165006BBE4A /* Build configuration list for PBXNativeTarget "NETI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41616871E971165006BBE4A /* Debug */,
+				D41616881E971165006BBE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D416166C1E971165006BBE4A /* Project object */;
+}
